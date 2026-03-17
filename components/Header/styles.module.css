@@ -1,0 +1,149 @@
+/* .main {
+  position: sticky;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.6rem;
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+
+.main nav {
+  display: flex;
+  align-items: center;
+}
+
+.main nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.questionsLink {
+  text-decoration: none;
+  color: black;
+} */
+
+/* .main {
+  position: sticky;
+  top: 12px;
+
+  margin: 0 24px;
+  padding: 14px 36px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 14px;
+
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+
+  background: rgba(255, 255, 255, 0.18);
+
+  border: 1px solid rgba(255, 255, 255, 0.35);
+
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.4);
+
+  z-index: 1000;
+} */
+
+.main {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+
+  padding: 16px 48px;
+
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  background: rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.logoWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 0.5px;
+}
+
+.main nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main nav a {
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+  /* opacity: 0.9;
+  transition: all 0.25s ease; */
+}
+
+/* .main nav a:hover {
+  opacity: 1;
+  transform: translateY(-1px);
+} */
+
+/* .main nav a {
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+  opacity: 0.85;
+  transition: 0.2s ease;
+} */
+
+/* .main nav a:hover {
+  opacity: 1;
+} */
+
+.loginLink {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid white;
+  transition: 0.2s ease;
+}
+
+.registerLink {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: white;
+  color: #222 !important;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.registerLink:hover,
+.loginLink:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}

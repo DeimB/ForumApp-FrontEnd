@@ -1,0 +1,73 @@
+.main {
+  margin-top: 80px;
+  padding: 60px 48px 30px;
+
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  color: white;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 60px;
+}
+
+.logoWrapper {
+  max-width: 340px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+
+.description {
+  margin-top: 14px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.main nav h3 {
+  margin-bottom: 12px;
+  font-size: 1rem;
+}
+
+.main nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.main nav li {
+  margin-bottom: 8px;
+}
+
+.link,
+.questionsLink {
+  text-decoration: none;
+  color: white;
+  opacity: 0.85;
+  transition: 0.2s;
+}
+
+.link:hover,
+.questionsLink:hover {
+  opacity: 1;
+}
+
+.copyright {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
