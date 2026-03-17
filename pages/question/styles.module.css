@@ -1,0 +1,49 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.buttonsWrapper {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.backButton {
+  display: flex;
+  align-items: center;
+
+  padding: 0.6rem 1.5rem;
+  border-radius: 1.2rem;
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.deleteButtonWrapper {
+  display: flex;
+
+  gap: 2rem;
+}
+
+.deleteButton {
+  padding: 0.6rem 1.5rem;
+  border-radius: 1.2rem;
+  background-color: #a43030;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.deleteButton:hover {
+  background-color: #cb3c3c;
+  scale: 1.05;
+  transition: 0.3s;
+}

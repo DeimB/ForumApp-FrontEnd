@@ -16,6 +16,11 @@ const Header = ({ logo }: HeaderProps) => {
       <nav>
         <ul>
           <li>
+            <Link href="/ask-question" className={styles.questionsLink}>
+              Ask Question
+            </Link>
+          </li>
+          <li>
             <Link href="/" className={styles.questionsLink}>
               Questions
             </Link>

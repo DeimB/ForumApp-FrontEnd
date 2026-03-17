@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.submitButton {
+  padding: 0.6rem 1.5rem;
+  border-radius: 1.2rem;
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+.submitButton:hover {
+  background-color: #333333;
+  scale: 1.05;
+  transition: 0.3s;
+}
